@@ -1,0 +1,22 @@
+﻿<Window x:Class="ToscaUtility_v2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ToscaUtility_v2"
+        mc:Ignorable="d"
+        Title="Tosca Utilty" Height="377.812" Width="633.564">
+    <Grid Margin="0,0,2,0">
+        
+
+        <Button x:Name="ToscaServer" Content="Tosca Server" HorizontalAlignment="Left" Margin="81,107,0,0" VerticalAlignment="Top" Width="110" Click="OpenWindow" Height="30"/>
+        <Button x:Name="LicenseServer" Content="License Server" HorizontalAlignment="Left" Margin="312,107,0,0" VerticalAlignment="Top" Width="110" Height="30"/>
+        <Button x:Name="ToscaCommander" Content="Tosca Commander" HorizontalAlignment="Left" Margin="81,183,0,0" VerticalAlignment="Top" Width="110" Height="30"/>
+        <Button x:Name="ToscaAgent" Content="Tosca Agent" HorizontalAlignment="Left" Margin="312,183,0,0" VerticalAlignment="Top" Width="110" Height="30"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="60" Margin="10,10,0,0" VerticalAlignment="Top" Width="604">
+            <Image x:Name="image" Source="Tricentis Logo_New.png" Margin="0,0,170,0"/>
+        </Border>
+        <GroupBox x:Name="groupBox" Header="" HorizontalAlignment="Left" Height="257" Margin="10,78,0,0" VerticalAlignment="Top" Width="604"/>
+
+    </Grid>
+</Window>
