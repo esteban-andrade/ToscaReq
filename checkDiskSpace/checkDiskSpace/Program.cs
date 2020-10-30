@@ -11,7 +11,6 @@ namespace checkDiskSpace
         static void Main(string[] args)
         {
             DriveInfo[] allDrives = DriveInfo.GetDrives();
-
          
             foreach (DriveInfo d in allDrives)
             {
@@ -28,8 +27,6 @@ namespace checkDiskSpace
                     Console.WriteLine("\tPercentage of Free Space:\t\t\t {0,1} %",Math.Round(freeSpacePercentage,2));
 
                 }
-
-
             }
             Console.WriteLine("\t\nPress a key to close this window..");
             Console.ReadLine();
